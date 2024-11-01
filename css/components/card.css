@@ -1,0 +1,50 @@
+/* Styles for each individual card */
+.card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  gap: 20px; /* Add gap between image and text */
+}
+
+/* Image styling inside each card */
+.card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+  color: #0f4229;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  flex-basis: 250px;
+  flex-grow: 1;
+}
